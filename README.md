@@ -1,2 +1,3 @@
-# cs3217-todo
-This is our final project for CS3217 and it's open source.
+# swift-CI-Test
+
+This is a simple project to test travis CI on swift project.
