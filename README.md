@@ -1,5 +1,5 @@
 # swift-CI-Test
 
-### This is a simple project to test travis CI on swift project.
+### This is a project to demo how to use travis CI with swift project.
 
 [![Build Status](http://img.shields.io/travis/wgx731/swift-CI-Test.svg?style=flat)](https://travis-ci.org/wgx731/swift-CI-Test)
