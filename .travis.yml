@@ -3,13 +3,8 @@ language: objective-c
 before_script:
     - brew update && brew upgrade xctool
 
-xcode_project: SwiftTravis.xcodeproj
-
-xcode_scheme: SwiftTravis
-
-xcode_sdk:
-    - iphonesimulator8.1
-    - ipadimulator8.1
+script:
+    - xctool -workspace SwiftTravis.xcworkspace -scheme SwiftTravis -sdk iphonesimulator clean build test
 
 branches:
   only:
